@@ -1,13 +1,13 @@
-import wget
 from datetime import date, timedelta
 import argparse
 import os
+from subprocess import Popen
 
 # Variables needed:
 url = 'https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/'
 FILE = 'oisst-avhrr-v02r01.'
 FILETYPE = '.nc'
-PRELIM = '_preliminary'
+PRELIM = '_preliminary.nc'
 
 def parse_input():
     ''' Parse input arguments '''
@@ -34,29 +34,43 @@ def folder_exist(year):
     else:
         print('Folder'+' '+dir_year+' '+'exists')
 
-def file_download(year, YMD, YM):
-    ''' Checks if the file exists and then downloads it if it doesn't'''
+def rm_prelim(year, YMD, YM):
+    dir_year=str(year)
+    YMD_file = str(YMD)
+    YM_file = str(YM)
+    
+    path_file = '/home/green/Downloads/oisst/test/'+dir_year+'/'+FILE+YMD_file+FILETYPE
+    path_prelim = '/home/green/Downloads/oisst/test/'+dir_year+'/'+FILE+YMD_file+PRELIM
+    isExist = os.path.exists(path_file)
+    isExist_prelim = os.path.exists(path_prelim)
+
+    if ((isExist == True) and (isExist_prelim == True)):
+        os.remove(path_prelim)
+    else:
+        pass
+
+def bash_wget(year, YMD, YM):
     dir_year=str(year)
     YMD_file = str(YMD)
     YM_file = str(YM)
 
-    # Create the URL for the file
     url1 = url+str(YM_file)+'/'+FILE+str(YMD_file)+FILETYPE
+    url_prelim = url+str(YM_file)+'/'+FILE+str(YMD_file)+PRELIM
 
-    path = '/home/green/Downloads/oisst/test/'+dir_year+'/'+FILE+YMD_file+FILETYPE
-    isExist = os.path.exists(path)
+    #path = '/home/green/Downloads/oisst/test/'+dir_year+'/'+FILE+YMD_file+FILETYPE
+    #path_prelim = '/home/green/Downloads/oisst/test/'+dir_year+'/'+FILE+YMD_file+PRELIM
+    location = '/home/green/Downloads/oisst/test/'+dir_year+'/'
+    #isExist = os.path.exists(path)
+    #isExist_prelim = os.path.exists(path_prelim)
 
-    if isExist == False:
-        print('File'+' '+YMD_file+' '+'does not exist, downloading now....')
-        # Download the file with wget:
-        filename = wget.download(url1, out='/home/green/Downloads/oisst/test/'+dir_year+'/')
+    today = date.today()
+    log_date = today.strftime("%d-%m-%Y")
 
-        # Might be better to do it this way since
-        # python wget isnt supported anymore.
-        os.system(f"""wget -c --read-timeout=5 --tries=0 {url}""")
-        print('........Done\n')
-    else:
-        print('File'+' '+YMD_file+' '+'already exists.')
+    args = ['wget', '-N', '-P', location, '-a', 'out-'+log_date+'.log', url1]
+    args_prelim = ['wget', '-N', '-P', location, '-a', 'out-'+log_date+'_prelim.log', url_prelim]
+
+    output = Popen(args, stdout=None)
+    output = Popen(args_prelim, stdout=None)
 
 def main():
     # Save the inputted year
@@ -79,7 +93,11 @@ def main():
         YMD = single_date.strftime("%Y%m%d")
         YM = single_date.strftime("%Y%m")
 
-        file_download(year, YMD, YM)
+        #file_download(year, YMD, YM)
+        bash_wget(year, YMD, YM)
+
+        # Remove any redundant prelim file
+        rm_prelim(year, YMD, YM)
 
 # Run the script.
 if __name__ == "__main__":
