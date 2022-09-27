@@ -89,7 +89,7 @@ def set_dates():
         if year == date.today().year:
             end_date = date(year, date.today().month, date.today().day)
         else:
-            end_date = date(year, 12, 31)
+            end_date = date(year+1, 1, 1)
     elif len(last) == 2:
         end_date = date(year, int(last[1]), int(last[0]))
     else:
@@ -153,8 +153,8 @@ def bash_wget(year, YMD, YM):
     today = date.today()
     log_date = today.strftime("%d-%m-%Y")
 
-    args = ['wget', '-N', '-P', location, '-a', 'out-'+log_date+'.log', url1]
-    args_prelim = ['wget', '-N', '-P', location, '-a', 'out-'+log_date+'_prelim.log', url_prelim]
+    args = ['wget', '-N', '-P', location, '-a', 'out-'+log_date+dir_year+'.log', url1]
+    args_prelim = ['wget', '-N', '-P', location, '-a', 'out-'+log_date+dir_year+'_prelim.log', url_prelim]
 
     output = Popen(args, stdout=None)
     output = Popen(args_prelim, stdout=None)
