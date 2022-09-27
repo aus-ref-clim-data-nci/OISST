@@ -9,6 +9,7 @@ url = 'https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolat
 FILE = 'oisst-avhrr-v02r01.'
 FILETYPE = '.nc'
 PRELIM = '_preliminary.nc'
+PATH_BASE = '/g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/'
 
 
 def parse_input():
@@ -65,7 +66,7 @@ def daterange(start_date, end_date):
 def folder_exist(year):
     '''Checks if the yearly directory exists, creates it if not.'''
     dir_year=str(year)
-    path = '/home/green/Downloads/oisst/test/'+dir_year
+    path = PATH_BASE+dir_year
     isExist = os.path.exists(path)
     if isExist == False:
         print('Folder'+' '+dir_year+' '+'does not exist')
@@ -79,8 +80,8 @@ def rm_prelim(year, YMD, YM):
     YMD_file = str(YMD)
     YM_file = str(YM)
     
-    path_file = '/home/green/Downloads/oisst/test/'+dir_year+'/'+FILE+YMD_file+FILETYPE
-    path_prelim = '/home/green/Downloads/oisst/test/'+dir_year+'/'+FILE+YMD_file+PRELIM
+    path_file = PATH_BASE+dir_year+'/'+FILE+YMD_file+FILETYPE
+    path_prelim = PATH_BASE+dir_year+'/'+FILE+YMD_file+PRELIM
     isExist = os.path.exists(path_file)
     isExist_prelim = os.path.exists(path_prelim)
 
@@ -98,8 +99,8 @@ def bash_wget(year, YMD, YM):
 
     url1 = url+str(YM_file)+'/'+FILE+str(YMD_file)+FILETYPE
     url_prelim = url+str(YM_file)+'/'+FILE+str(YMD_file)+PRELIM
-    
-    location = '/home/green/Downloads/oisst/test/'+dir_year+'/'
+
+    location = PATH_BASE+dir_year+'/'
 
     today = date.today()
     log_date = today.strftime("%d-%m-%Y")
