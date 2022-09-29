@@ -153,8 +153,8 @@ def bash_wget(year, YMD, YM):
     today = date.today()
     log_date = today.strftime("%d-%m-%Y")
 
-    args = ['wget', '-N', '-P', location, '-a', 'out-'+log_date+dir_year+'.log', url1]
-    args_prelim = ['wget', '-N', '-P', location, '-a', 'out-'+log_date+dir_year+'_prelim.log', url_prelim]
+    args = ['wget', '-N', '-P', location, '-a', 'out-'+location+log_date+dir_year+'.log', url1]
+    args_prelim = ['wget', '-N', '-P', location, '-a', 'out-'+location+log_date+dir_year+'_prelim.log', url_prelim]
 
     output = Popen(args, stdout=None)
     output = Popen(args_prelim, stdout=None)
