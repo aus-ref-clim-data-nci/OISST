@@ -20,9 +20,12 @@ The code used to download the files is python based, to see all the options:
 ```{code}
     python3 oisst_dl.py --help
 ```
-The code used to concatenate the files is a bash script calling CDO (note: not done this yet)
+The code used to concatenate the files is a python script calling CDO and NCO:
 ```{code}
-    ./oisst_concat.sh <yr> <mn> 
+    module load cdo
+    module load nco
+
+    ./oisst_concat.py <yr> 
 ```
 
 ## Data location
@@ -30,7 +33,8 @@ The code used to concatenate the files is a bash script calling CDO (note: not d
 OISST data is available in
 
 ```
-/g/data/ia39/aus-ref-clim-data-nci/oisst/data/<yr>/<files>
+/g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/<year>/<files>  -- Daily files located here.
+/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/<files> -- Yearly files here.
 ```
 
 ## License
