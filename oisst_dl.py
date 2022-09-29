@@ -19,7 +19,7 @@ limitations under the License.
 This script is used to download and/or update the OISST dataset on
     the NCI server from https://ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/
 Last change:
-    2022-09-27
+    2022-09-29
 
 Usage:
  Required inputs:
@@ -33,24 +33,26 @@ To check options, use:
    python3 oisst_dl.py -h
 
 Logging:
-    - wget output info is saved to out-'today date'.log
-    - wget output for preliminary files saved to out-'today date'_prelim.log
+    - Output is in oisst_dl.log
+    - wget output info is saved to /tmp/<year>/wget_output.log
  
 Uses the following modules:
-from datetime import date, timedelta
+from datetime import date, timedelta, datetime
 import argparse
 import os
 import sys
 from subprocess import Popen
+import getpass
 
 Works with python 3, and should work with python 2 (but not tested).
 """
 
-from datetime import date, timedelta
+from datetime import date, timedelta, datetime
 import argparse
 import os
 import sys
 from subprocess import Popen
+import getpass
 
 # Variables needed:
 url = 'https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/'
@@ -153,11 +155,11 @@ def bash_wget(year, YMD, YM):
     today = date.today()
     log_date = today.strftime("%d-%m-%Y")
 
-    args = ['wget', '-N', '-P', location, '-a', 'out-'+location+log_date+dir_year+'.log', url1]
-    args_prelim = ['wget', '-N', '-P', location, '-a', 'out-'+location+log_date+dir_year+'_prelim.log', url_prelim]
+    args = ['wget', '-N', '-P', location, '-a', location+'wget_output.log', url1]
+    args_prelim = ['wget', '-N', '-P', location, '-a', location+'wget_output.log', url_prelim]
 
     output = Popen(args, stdout=None)
-    output = Popen(args_prelim, stdout=None)
+    output1 = Popen(args_prelim, stdout=None)
 
 def main():
     '''Main function to combine everything together.'''
@@ -178,6 +180,21 @@ def main():
         # Remove any redundant prelim file
         rm_prelim(year, YMD, YM)
 
+    # Info for logging:
+    dt = str(date.today())
+    usr = str(getpass.getuser())
+    now = datetime.now()
+    current_time = str(now.strftime("%H:%M:%S"))
+    print(dt+' '+current_time+': the'+' '+str(year)+' daily data was downloaded by'+' '+usr)
+    print('The output from wget is in /tmp/<year>/wget_output.log')
+    print('-------------------------------------------------------------------------')
+
 # Run the script.
 if __name__ == "__main__":
-    main()
+    # Logs all python output to file:
+    with open("oisst_dl.log", 'a') as f:
+        sys.stdout = f
+        # Run the script
+        main()
+
+    f.close()
