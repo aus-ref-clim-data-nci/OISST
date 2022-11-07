@@ -1,0 +1,579 @@
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2020/oisst-avhrr-v02r01.2020*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2020_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2020_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2020.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2020.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2020.nc
+2022-09-29 11:30:44: the 2020 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2020/oisst-avhrr-v02r01.2020*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2020_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2020_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2020.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2020.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2020.nc
+2022-09-29 11:37:10: the 2020 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+-------------------------------------------------------------------------
+Concatonate done!
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-09-29 16:29:28: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-09-29 16:31:47: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2021/oisst-avhrr-v02r01.2021*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2021_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2021_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2021.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2021.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2021.nc
+2022-09-29 16:50:53: the 2021 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2021/oisst-avhrr-v02r01.2021*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2021_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2021_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2021.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2021.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2021.nc
+2022-09-29 16:54:48: the 2021 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-09-29 17:00:52: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-09-30 11:34:42: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/1981/oisst-avhrr-v02r01.1981*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1981_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1981_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1981.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1981.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1981.nc
+2022-09-30 16:37:25: the 1981 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/1982/oisst-avhrr-v02r01.1982*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1982_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1982_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1982.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1982.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1982.nc
+2022-09-30 16:39:54: the 1982 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/1983/oisst-avhrr-v02r01.1983*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1983_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1983_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1983.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1983.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1983.nc
+2022-09-30 16:42:32: the 1983 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/1984/oisst-avhrr-v02r01.1984*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1984_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1984_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1984.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1984.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1984.nc
+2022-09-30 16:45:31: the 1984 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/1985/oisst-avhrr-v02r01.1985*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1985_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1985_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1985.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1985.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1985.nc
+2022-09-30 16:48:12: the 1985 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/1986/oisst-avhrr-v02r01.1986*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1986_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1986_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1986.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1986.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1986.nc
+2022-09-30 16:51:20: the 1986 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/1987/oisst-avhrr-v02r01.1987*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1987_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1987_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1987.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1987.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1987.nc
+2022-09-30 16:55:29: the 1987 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/1988/oisst-avhrr-v02r01.1988*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1988_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1988_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1988.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1988.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1988.nc
+2022-09-30 16:58:37: the 1988 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/1989/oisst-avhrr-v02r01.1989*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1989_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1989_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1989.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1989.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1989.nc
+2022-09-30 17:01:27: the 1989 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/1990/oisst-avhrr-v02r01.1990*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1990_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1990_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1990.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1990.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1990.nc
+2022-09-30 17:04:11: the 1990 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-10-01 11:34:26: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-10-02 12:35:26: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-10-03 12:35:33: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-10-10 10:44:55: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/1991/oisst-avhrr-v02r01.1991*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1991_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1991_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1991.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1991.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1991.nc
+2022-10-10 11:07:27: the 1991 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/1992/oisst-avhrr-v02r01.1992*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1992_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1992_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1992.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1992.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1992.nc
+2022-10-10 11:10:22: the 1992 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/1993/oisst-avhrr-v02r01.1993*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1993_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1993_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1993.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1993.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1993.nc
+2022-10-10 11:28:58: the 1993 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/1994/oisst-avhrr-v02r01.1994*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1994_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1994_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1994.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1994.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1994.nc
+2022-10-10 11:31:36: the 1994 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/1995/oisst-avhrr-v02r01.1995*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1995_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1995_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1995.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1995.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1995.nc
+2022-10-10 11:34:18: the 1995 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/1996/oisst-avhrr-v02r01.1996*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1996_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1996_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1996.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1996.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1996.nc
+2022-10-10 11:38:10: the 1996 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/1997/oisst-avhrr-v02r01.1997*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1997_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1997_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1997.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1997.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1997.nc
+2022-10-10 11:41:23: the 1997 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/1998/oisst-avhrr-v02r01.1998*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1998_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1998_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1998.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1998.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1998.nc
+2022-10-10 12:01:32: the 1998 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/1999/oisst-avhrr-v02r01.1999*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1999_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1999_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1999.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1999.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_1999.nc
+2022-10-10 12:04:58: the 1999 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2000/oisst-avhrr-v02r01.2000*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2000_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2000_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2000.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2000.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2000.nc
+2022-10-10 12:07:50: the 2000 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2001/oisst-avhrr-v02r01.2001*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2001_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2001_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2001.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2001.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2001.nc
+2022-10-10 12:11:05: the 2001 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2002/oisst-avhrr-v02r01.2002*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2002_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2002_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2002.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2002.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2002.nc
+2022-10-10 12:13:44: the 2002 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2003/oisst-avhrr-v02r01.2003*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2003_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2003_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2003.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2003.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2003.nc
+2022-10-10 12:16:51: the 2003 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2004/oisst-avhrr-v02r01.2004*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2004_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2004_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2004.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2004.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2004.nc
+2022-10-10 12:19:43: the 2004 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2005/oisst-avhrr-v02r01.2005*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2005_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2005_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2005.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2005.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2005.nc
+2022-10-10 12:22:37: the 2005 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2006/oisst-avhrr-v02r01.2006*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2006_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2006_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2006.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2006.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2006.nc
+2022-10-10 12:25:34: the 2006 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2007/oisst-avhrr-v02r01.2007*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2007_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2007_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2007.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2007.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2007.nc
+2022-10-10 12:28:55: the 2007 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2008/oisst-avhrr-v02r01.2008*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2008_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2008_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2008.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2008.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2008.nc
+2022-10-10 12:32:21: the 2008 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2009/oisst-avhrr-v02r01.2009*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2009_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2009_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2009.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2009.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2009.nc
+2022-10-10 12:35:03: the 2009 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-10-10 12:35:41: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2010/oisst-avhrr-v02r01.2010*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2010_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2010_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2010.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2010.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2010.nc
+2022-10-10 12:38:31: the 2010 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2011/oisst-avhrr-v02r01.2011*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2011_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2011_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2011.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2011.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2011.nc
+2022-10-10 12:42:13: the 2011 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2012/oisst-avhrr-v02r01.2012*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2012_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2012_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2012.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2012.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2012.nc
+2022-10-10 12:45:17: the 2012 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2013/oisst-avhrr-v02r01.2013*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2013_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2013_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2013.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2013.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2013.nc
+2022-10-10 12:48:03: the 2013 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2014/oisst-avhrr-v02r01.2014*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2014_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2014_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2014.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2014.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2014.nc
+2022-10-10 12:51:14: the 2014 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2015/oisst-avhrr-v02r01.2015*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2015_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2015_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2015.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2015.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2015.nc
+2022-10-10 12:53:53: the 2015 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2016/oisst-avhrr-v02r01.2016*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2016_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2016_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2016.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2016.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2016.nc
+2022-10-10 12:56:27: the 2016 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2017/oisst-avhrr-v02r01.2017*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2017_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2017_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2017.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2017.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2017.nc
+2022-10-10 12:59:09: the 2017 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2018/oisst-avhrr-v02r01.2018*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2018_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2018_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2018.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2018.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2018.nc
+2022-10-10 13:01:47: the 2018 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2019/oisst-avhrr-v02r01.2019*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2019_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2019_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2019.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2019.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2019.nc
+2022-10-10 13:04:34: the 2019 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-10-11 12:34:41: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-10-12 12:34:39: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-10-13 12:34:39: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-10-14 12:34:39: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-10-15 12:34:42: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-10-16 12:35:38: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-10-17 12:34:43: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-10-18 12:34:42: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-10-19 12:33:52: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-10-20 11:23:50: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-10-20 12:32:52: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-10-21 12:32:51: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-10-22 12:35:34: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-10-23 12:34:34: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-10-24 12:35:40: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-10-25 12:34:45: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-10-26 12:34:40: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-10-27 12:34:42: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-10-28 12:34:36: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-10-29 12:35:38: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-10-30 12:35:37: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-10-31 12:35:37: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-11-01 12:35:42: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-11-02 12:35:40: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-11-03 12:34:45: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-11-04 12:34:41: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-11-05 12:37:15: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-11-06 12:35:37: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Concatonate done!
+Re-chunking done!
+ncatted -O -a history,global,o,c,'downloaded original files from https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. Using cdo to concatenate files: cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat /g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/2022/oisst-avhrr-v02r01.2022*.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc and nco to modify chunks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022_tmp.nc /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc' /g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+History added to/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2022.nc
+2022-11-07 12:36:54: the 2022 daily data was concatenated into one file by sg7549
+-------------------------------------------------------------------------

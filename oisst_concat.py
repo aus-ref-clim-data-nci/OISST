@@ -161,7 +161,7 @@ def main():
 # Run the script.
 if __name__ == "__main__":
     # Logs all python output to file:
-    with open("oisst_concat.log", 'a') as f:
+    with open("concat_log.txt", 'a') as f:
         sys.stdout = f
         # Run the script
         main()

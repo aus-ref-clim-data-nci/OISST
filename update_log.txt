@@ -1,0 +1,340 @@
+Folder 2020 exists
+2022-09-29 12:12:27: the 2020 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 does not exist
+2022-09-29 16:07:35: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-09-29 16:15:15: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-09-29 16:27:28: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-09-29 16:29:36: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-09-29 16:39:23: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2021 does not exist
+2022-09-29 16:48:35: the 2021 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2021 exists
+2022-09-29 16:52:34: the 2021 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-09-29 16:57:56: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 does not exist
+2022-09-29 16:59:09: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-09-30 11:32:35: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 1981 does not exist
+2022-09-30 16:29:54: the 1981 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 1982 does not exist
+2022-09-30 16:30:15: the 1982 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 1983 does not exist
+2022-09-30 16:30:22: the 1983 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 1984 does not exist
+2022-09-30 16:30:31: the 1984 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 1985 does not exist
+2022-09-30 16:30:39: the 1985 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 1986 does not exist
+2022-09-30 16:30:48: the 1986 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 1987 does not exist
+2022-09-30 16:30:55: the 1987 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 1988 does not exist
+2022-09-30 16:31:04: the 1988 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 1989 does not exist
+2022-09-30 16:31:13: the 1989 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 1990 does not exist
+2022-09-30 16:31:22: the 1990 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 1991 does not exist
+2022-09-30 16:31:31: the 1991 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 1992 does not exist
+2022-09-30 16:31:39: the 1992 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 1993 does not exist
+2022-09-30 16:31:48: the 1993 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 1994 does not exist
+2022-09-30 16:31:59: the 1994 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 1995 does not exist
+2022-09-30 16:32:07: the 1995 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 1996 does not exist
+2022-09-30 16:32:15: the 1996 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 1997 does not exist
+2022-09-30 16:32:22: the 1997 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 1998 does not exist
+2022-09-30 16:32:31: the 1998 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 1999 does not exist
+2022-09-30 16:32:38: the 1999 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2000 does not exist
+2022-09-30 16:32:56: the 2000 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2001 does not exist
+2022-09-30 16:33:02: the 2001 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2002 does not exist
+2022-09-30 16:33:09: the 2002 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2003 does not exist
+2022-09-30 16:33:16: the 2003 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2004 does not exist
+2022-09-30 16:33:24: the 2004 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2005 does not exist
+2022-09-30 16:33:31: the 2005 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2006 does not exist
+2022-09-30 16:33:38: the 2006 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2007 does not exist
+2022-09-30 16:33:46: the 2007 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2008 does not exist
+2022-09-30 16:33:54: the 2008 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2009 does not exist
+2022-09-30 16:34:02: the 2009 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2010 does not exist
+2022-09-30 16:34:10: the 2010 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2011 does not exist
+2022-09-30 16:34:17: the 2011 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2012 does not exist
+2022-09-30 16:34:25: the 2012 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2013 does not exist
+2022-09-30 16:34:32: the 2013 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2014 does not exist
+2022-09-30 16:34:39: the 2014 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2015 does not exist
+2022-09-30 16:34:47: the 2015 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2016 does not exist
+2022-09-30 16:34:54: the 2016 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2017 does not exist
+2022-09-30 16:35:01: the 2017 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2018 does not exist
+2022-09-30 16:35:09: the 2018 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2019 does not exist
+2022-09-30 16:35:16: the 2019 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-10-01 11:32:35: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-10-02 12:33:36: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-10-03 12:33:38: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-10-10 10:42:57: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-10-10 12:33:41: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-10-11 12:32:45: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-10-12 12:32:42: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-10-13 12:32:43: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-10-14 12:32:42: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-10-15 12:32:44: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-10-16 12:33:45: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-10-17 12:32:45: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-10-18 12:32:45: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-10-19 12:33:44: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-10-20 11:23:47: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-10-20 11:25:19: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-10-20 12:32:45: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-10-21 12:32:43: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-10-22 12:33:46: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-10-23 12:32:43: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-10-24 12:33:44: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-10-25 12:32:49: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-10-26 12:32:48: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-10-27 12:32:48: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-10-28 12:32:42: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-10-29 12:33:45: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-10-30 12:33:43: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-10-31 12:33:42: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-11-01 12:33:45: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-11-02 12:33:46: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-11-03 12:32:51: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-11-04 12:32:48: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-11-05 12:35:21: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-11-06 12:33:48: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------
+Folder 2022 exists
+2022-11-07 12:35:01: the 2022 daily data was downloaded by sg7549
+The output from wget is in /tmp/<year>/wget_output.log
+-------------------------------------------------------------------------

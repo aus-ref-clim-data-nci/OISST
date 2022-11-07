@@ -192,7 +192,7 @@ def main():
 # Run the script.
 if __name__ == "__main__":
     # Logs all python output to file:
-    with open("oisst_dl.log", 'a') as f:
+    with open("update_log.txt", 'a') as f:
         sys.stdout = f
         # Run the script
         main()
