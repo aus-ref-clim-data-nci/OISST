@@ -18,7 +18,7 @@ Updates are run with a weekly frequency via the [accessdev Jenkins server](https
 
 The code used to download the files is python based, to see all the options:
 ```{code}
-    python3 oisst_dl.py --help
+    python3 oisst.py --help
 ```
 The code used to concatenate the files is a python script calling CDO and NCO:
 ```{code}
@@ -39,18 +39,19 @@ OISST data is available in
 
 ## License
 
-This dataset is freely available, there are no use limitations or accounts needed. Although there is an optional registration form that can be reached from the documentation page in the NOAA website under the "data access" session. Please consider register, so you'll receive updates on the data and as this also helps the data publishers to get an idea of the data usefulness and continue providing for public access. Use the following publications to cite the dataset:
-
-Huang, B., C. Liu, V. Banzon, E. Freeman, G. Graham, W. Hankins, T. Smith, and H.-M. Zhang, 2020: Improvements of the Daily Optimum Sea Surface Temperature (DOISST) - Version 2.1. (J. Climate, submitted). (for v2.1)
-
-Banzon, V., Smith, T. M., Chin, T. M., Liu, C., and Hankins, W., 2016: A long-term record of blended satellite and in situ sea-surface temperature for climate monitoring, modeling and environmental studies. Earth Syst. Sci. Data, 8, 165–176, [doi:10.5194/essd-8-165-2016](doi:10.5194/essd-8-165-2016). Reynolds, R. W., T. M. Smith, C. Liu, D. B. Chelton, K. S. Casey, and M. G. Schlax, 2007: Daily high-resolution-blended analyses for sea surface temperature. Journal of Climate, 20, 5473–5496, [doi:10.1175/JCLI-D-14-00293.1](doi:10.1175/JCLI-D-14-00293.1). 
+This dataset is freely available, there are no use limitations or accounts needed. Although there is an optional registration form that can be reached from the documentation page in the NOAA website under the "data access" session. Please consider [register](https://docs.google.com/a/noaa.gov/forms/d/1zZQKz1qF5Wk7sqQuQmxCiBI4Y-xgtKcBqCykMtW21Dk/viewform?c=0&w=1), so you'll receive updates on the data and as this also helps the data publishers to get an idea of the data usefulness and continue providing for public access.  
 
 
 ## Data citation
+The three papers below are the most appropriate references for 1/4° Daily OISST. To cite the dataset, use the first paper. The second reference describes the 1/4° daily OISST when it was first released, and goes through the methodology in great detail.
 
+Huang, B., C. Liu, V. Banzon, E. Freeman, G. Graham, B. Hankins, T. Smith, and H.-M. Zhang, 2020: Improvements of the Daily Optimum Interpolation Sea Surface Temperature (DOISST) Version 2.1, Journal of Climate, 34, 2923-2939. [doi:10.1175/JCLI-D-20-0166.1](https://journals.ametsoc.org/view/journals/clim/34/8/JCLI-D-20-0166.1.xml)
+Banzon, V., Smith, T. M., Chin, T. M., Liu, C., and Hankins, W., 2016: A long-term record of blended satellite and in situ sea-surface temperature for climate monitoring, modeling and environmental studies. Earth Syst. Sci. Data, 8, 165–176, [doi:10.5194/essd-8-165-2016](http://www.earth-syst-sci-data.net/8/165/2016/essd-8-165-2016.html)
+Reynolds, R. W., T. M. Smith, C. Liu, D. B. Chelton, K. S. Casey, and M. G. Schlax, 2007: Daily high-resolution-blended analyses for sea surface temperature. Journal of Climate, 20, 5473–5496, [doi:10.1175/JCLI-D-14-00293.1](http://dx.doi.org/10.1175/2007JCLI1824.1)
 
 ## References
 
+A [reference list](https://www.ncei.noaa.gov/products/optimum-interpolation-sst) is provided with the main documentation.
 
 ## Acknowledgement
 
