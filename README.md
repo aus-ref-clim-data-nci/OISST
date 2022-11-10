@@ -43,15 +43,17 @@ This dataset is freely available, there are no use limitations or accounts neede
 
 
 ## Data citation
-The three papers below are the most appropriate references for 1/4° Daily OISST. To cite the dataset, use the first paper. The second reference describes the 1/4° daily OISST when it was first released, and goes through the methodology in great detail.
+
+Cite as: Huang, Boyin; Liu, Chunying; Banzon, Viva F.; Freeman, Eric; Graham, Garrett; Hankins, Bill; Smith, Thomas M.; Zhang, Huai-Min. (2020): NOAA 0.25-degree Daily Optimum Interpolation Sea Surface Temperature (OISST), Version 2.1. [indicate subset used]. NOAA National Centers for Environmental Information. https://doi.org/10.25921/RE9P-PT57. Accessed [date].
+
+
+## References
 
 Huang, B., C. Liu, V. Banzon, E. Freeman, G. Graham, B. Hankins, T. Smith, and H.-M. Zhang, 2020: Improvements of the Daily Optimum Interpolation Sea Surface Temperature (DOISST) Version 2.1, Journal of Climate, 34, 2923-2939. [doi:10.1175/JCLI-D-20-0166.1](https://journals.ametsoc.org/view/journals/clim/34/8/JCLI-D-20-0166.1.xml)
 Banzon, V., Smith, T. M., Chin, T. M., Liu, C., and Hankins, W., 2016: A long-term record of blended satellite and in situ sea-surface temperature for climate monitoring, modeling and environmental studies. Earth Syst. Sci. Data, 8, 165–176, [doi:10.5194/essd-8-165-2016](http://www.earth-syst-sci-data.net/8/165/2016/essd-8-165-2016.html)
 Reynolds, R. W., T. M. Smith, C. Liu, D. B. Chelton, K. S. Casey, and M. G. Schlax, 2007: Daily high-resolution-blended analyses for sea surface temperature. Journal of Climate, 20, 5473–5496, [doi:10.1175/JCLI-D-14-00293.1](http://dx.doi.org/10.1175/2007JCLI1824.1)
 
-## References
-
-A [reference list](https://www.ncei.noaa.gov/products/optimum-interpolation-sst) is provided with the main documentation.
+A [full reference list](https://www.ncei.noaa.gov/products/optimum-interpolation-sst) is provided with the main documentation.
 
 ## Acknowledgement
 
