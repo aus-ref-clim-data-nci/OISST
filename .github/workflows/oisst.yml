@@ -1,0 +1,24 @@
+name: Run OISST download & concat code 
+on: 
+  workflow_dispatch:
+  schedule:
+    - cron: '0 1 * * 0'
+
+jobs:
+  runcode:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run  
+        uses: appleboy/ssh-action@v0.1.7
+        with:
+          host: ${{secrets.HOST}}
+          username: ${{secrets.USER}}
+          key: ${{secrets.SSH_KEY}}
+          command_timeout: 60m
+          script: |
+              module use /g/data3/hh5/public/modules
+              module load conda/analysis3
+              cd /g/data/ia39/aus-ref-clim-data-nci/oisst/code
+              yr=$(date +'%Y')
+              python3 oisst.py -y $yr
+              python3 oisst_concat.py -y $yr
