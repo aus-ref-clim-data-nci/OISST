@@ -19,6 +19,7 @@ jobs:
               module use /g/data3/hh5/public/modules
               module load conda/analysis3
               cd /g/data/ia39/aus-ref-clim-data-nci/oisst/code
-              yr=$(date +'%Y')
+              #yr=$(date +'%Y')
+              yr=2023
               python3 oisst.py -y $yr
               python3 oisst_concat.py -y $yr
