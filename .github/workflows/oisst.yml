@@ -14,6 +14,7 @@ jobs:
           host: ${{secrets.HOST}}
           username: ${{secrets.USER}}
           key: ${{secrets.SSH_KEY}}
+          passphrase: ${{secrets.PASSPHRASE}}
           command_timeout: 60m
           script: |
               module use /g/data3/hh5/public/modules
