@@ -1,6 +1,6 @@
 # OISST
 
-![example workflow](https://github.com/aus-ref-clim-data-nci/OISST/blob/main/.github/workflows/oisst.yml/badge.svg)
+![workflow](https://github.com/aus-ref-clim-data-nci/OISST/actions/workflows/oisst.yml/badge.svg)
 
 ## Overview
 
