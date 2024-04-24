@@ -1,5 +1,7 @@
 # OISST
-  
+
+![example workflow](https://github.com/aus-ref-clim-data-nci/OISST/blob/main/.github/workflows/oisst.yml/badge.svg)
+
 ## Overview
 
 The NOAA 1/4 degree Daily Optimum Interpolation Sea Surface Temperature (OISST) is a long term Climate Data Record that incorporates observations from different platforms (satellites, ships, buoys and Argo floats) into a regular global grid. The dataset is interpolated to fill gaps on the grid and create a spatially complete map of sea surface temperature. Satellite and ship observations are referenced to buoys to compensate for platform differences and sensor biases.
