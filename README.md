@@ -35,8 +35,8 @@ The code used to concatenate the files is a python script calling CDO and NCO:
 OISST data is available in
 
 ```
-/g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/<year>/<files>  -- Daily files located here.
-/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/<files> -- Yearly files here.
+/g/data/jt48/aus-ref-clim-data-nci/oisst/data/tmp/<year>/<files>  -- Daily files located here.
+/g/data/jt48/aus-ref-clim-data-nci/oisst/data/yearly/<files> -- Yearly files here.
 ```
 
 ## License
