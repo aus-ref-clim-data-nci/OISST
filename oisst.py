@@ -59,7 +59,7 @@ url = 'https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolat
 FILE = 'oisst-avhrr-v02r01.'
 FILETYPE = '.nc'
 PRELIM = '_preliminary.nc'
-PATH_BASE = '/g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/'
+PATH_BASE = '/g/data/jt48/aus-ref-clim-data-nci/oisst/data/tmp/'
 
 
 def parse_input():
