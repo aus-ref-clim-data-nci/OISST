@@ -52,8 +52,8 @@ url = 'https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolat
 FILE = 'oisst-avhrr-v02r01.'
 FILETYPE = '.nc'
 PRELIM = '_preliminary.nc'
-PATH_BASE = '/g/data/ia39/aus-ref-clim-data-nci/oisst/data/tmp/'
-PATH_OUT = '/g/data/ia39/aus-ref-clim-data-nci/oisst/data/yearly/'
+PATH_BASE = '/g/data/jt48/aus-ref-clim-data-nci/oisst/data/tmp/'
+PATH_OUT = '/g/data/jt48/aus-ref-clim-data-nci/oisst/data/yearly/'
 
 
 def parse_input():
@@ -106,7 +106,7 @@ def bash_cdo(year):
         pass
 
     # Concatenate the daily files into one yearly file:
-    cmd_cat = 'cdo --no_history -O -L --sortname --no_warnings -f nc4 -z zip_5 cat'+' '+IN_FILE+' '+TMP_FILE
+    cmd_cat = 'cdo --no_history -O -L --sortname -f nc4 -z zip_5 cat'+' '+IN_FILE+' '+TMP_FILE
     os.system(cmd_cat)
     print('Concatonate done!')
 
