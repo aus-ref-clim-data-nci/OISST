@@ -956,3 +956,20 @@ History added to/g/data/jt48/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr
 [2026-04-21 17:15:00] oisst_concat.sh  |  year=2026  |  user=sg7549
 [2026-04-21 17:15:00] ========================================================
 [2026-04-21 17:15:00] ERROR: Missing required tools: cdo ncks ncatted
+[2026-04-21 17:24:17] ========================================================
+[2026-04-21 17:24:17] oisst_concat.sh  |  year=2026  |  user=sg7549
+[2026-04-21 17:24:17] ========================================================
+[2026-04-21 17:24:17] Scanning for superseded preliminary files in /g/data/jt48/aus-ref-clim-data-nci/oisst/data/tmp/2026 ...
+[2026-04-21 17:24:18] Removed 0 superseded preliminary file(s).
+[2026-04-21 17:24:18] Starting concatenation for year 2026 ...
+[2026-04-21 17:24:18] Found 95 daily file(s) to concatenate.
+[2026-04-21 17:24:18] Removing existing output: /g/data/jt48/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2026.nc
+[2026-04-21 17:24:18] Running CDO: cdo --no_history -O -L --sortname -f nc4 -z zip_5 cat /g/data/jt48/aus-ref-clim-data-nci/oisst/data/tmp/2026/oisst-avhrr-v02r01.2026*.nc /g/data/jt48/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2026_tmp.nc
+[2026-04-21 17:24:46] Concatenation complete.
+[2026-04-21 17:24:46] Running ncks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/jt48/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2026_tmp.nc /g/data/jt48/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2026.nc
+[2026-04-21 17:25:14] Rechunking complete.
+[2026-04-21 17:25:14] Stamping history attribute ...
+[2026-04-21 17:25:16] History attribute written to /g/data/jt48/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2026.nc.
+[2026-04-21 17:25:16] ========================================================
+[2026-04-21 17:25:16] Done. Output: /g/data/jt48/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2026.nc
+[2026-04-21 17:25:16] ========================================================
