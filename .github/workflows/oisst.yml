@@ -34,7 +34,7 @@ jobs:
               yr=$(date +'%Y')
 
               echo "--- Starting download ---"
-              bash oisst_dl.sh -y $yr || { echo "Download failed"; exit 1; }
+              bash oisst.sh -y $yr || { echo "Download failed"; exit 1; }
 
               echo "--- Starting concat ---"
               bash oisst_concat.sh -y $yr || { echo "Concat failed"; exit 1; }
