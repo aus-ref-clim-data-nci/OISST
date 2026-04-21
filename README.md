@@ -18,9 +18,9 @@ The data is downloaded from [ncei.noaa.gov](https://www.ncei.noaa.gov/data/sea-s
 Since the original daily files are relatively small in size (~1.6mb), they are then concatenated in yearly files using CDO and rechunked using NCO.
 Updates are run with a weekly frequency via a [GitHub Action]([https://accessdev.nci.org.au/jenkins/job/aus-ref-clim-data-nci/job/OISST/](https://github.com/aus-ref-clim-data-nci/OISST/actions/workflows/oisst.yml)).
 
-The code used to download the files is python based, to see all the options:
+The code used to download the files is bash based, to see all the options:
 ```{code}
-    python3 oisst.py --help
+    bash oisst.py --help
 ```
 The code used to concatenate the files is a python script calling CDO and NCO:
 ```{code}
