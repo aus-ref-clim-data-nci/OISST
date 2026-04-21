@@ -1,5 +1,6 @@
-name: Run OISST download & concat code 
-on: 
+name: Run OISST download & concat
+
+on:
   workflow_dispatch:
   schedule:
     - cron: '0 1 * * 0'
@@ -7,19 +8,47 @@ on:
 jobs:
   runcode:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Run  
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Run download & concat on Gadi
         uses: appleboy/ssh-action@v0.1.7
         with:
-          host: ${{secrets.HOST}}
-          username: ${{secrets.USER}}
-          key: ${{secrets.SSH_KEY}}
-          passphrase: ${{secrets.PASSPHRASE}}
-          command_timeout: 60m
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USER }}
+          key: ${{ secrets.SSH_KEY }}
+          passphrase: ${{ secrets.PASSPHRASE }}
+          command_timeout: 120m
           script: |
-              module use /g/data3/hh5/public/modules
-              module load conda/analysis3
-              cd /g/data/jt48/aus-ref-clim-data-nci/oisst/code
-              yr=$(date +'%Y')
-              python3 oisst.py -y $yr
-              python3 oisst_concat.py -y $yr
+            cd /g/data/jt48/aus-ref-clim-data-nci/oisst/code
+
+            yr=$(date +'%Y')
+
+            echo "--- Starting download ---"
+            bash oisst_dl.sh -y $yr || { echo "Download failed"; exit 1; }
+
+            echo "--- Starting concat ---"
+            bash oisst_concat.sh -y $yr || { echo "Concat failed"; exit 1; }
+
+      - name: Copy logs from Gadi
+        if: always()   # copy logs even if the scripts failed
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USER }}
+          key: ${{ secrets.SSH_KEY }}
+          passphrase: ${{ secrets.PASSPHRASE }}
+          source: "/g/data/jt48/aus-ref-clim-data-nci/oisst/code/update_log.txt,/g/data/jt48/aus-ref-clim-data-nci/oisst/code/concat_log.txt"
+          target: "logs/"
+          strip_components: 7   # strips the leading path, leaves just the filenames
+
+      - name: Commit and push logs
+        if: always()
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add logs/update_log.txt logs/concat_log.txt
+          git diff --staged --quiet || git commit -m "chore: update OISST logs $(date '+%Y-%m-%d')"
+          git push
