@@ -5,6 +5,11 @@ on:
   schedule:
     - cron: '0 1 * * 0'
 
+env:
+  GADI_HOST: gadi.nci.org.au
+  GADI_CODE: /g/data/jt48/aus-ref-clim-data-nci/oisst/code
+  GADI_LOGS: /g/data/jt48/aus-ref-clim-data-nci/oisst/code
+
 jobs:
   runcode:
     runs-on: ubuntu-latest
@@ -13,36 +18,37 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      - name: Configure SSH
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "${{ secrets.HPC_SSH_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H ${{ env.GADI_HOST }} >> ~/.ssh/known_hosts
+
       - name: Run download & concat on Gadi
-        uses: appleboy/ssh-action@v0.1.7
-        with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USER }}
-          key: ${{ secrets.SSH_KEY }}
-          passphrase: ${{ secrets.PASSPHRASE }}
-          command_timeout: 120m
-          script: |
-            cd /g/data/jt48/aus-ref-clim-data-nci/oisst/code
+        run: |
+          ssh -i ~/.ssh/id_ed25519 \
+            ${{ secrets.HPC_USER }}@${{ env.GADI_HOST }} \
+            bash -l << 'EOF'
+              cd ${{ env.GADI_CODE }}
+              yr=$(date +'%Y')
 
-            yr=$(date +'%Y')
+              echo "--- Starting download ---"
+              bash oisst_dl.sh -y $yr || { echo "Download failed"; exit 1; }
 
-            echo "--- Starting download ---"
-            bash oisst_dl.sh -y $yr || { echo "Download failed"; exit 1; }
-
-            echo "--- Starting concat ---"
-            bash oisst_concat.sh -y $yr || { echo "Concat failed"; exit 1; }
+              echo "--- Starting concat ---"
+              bash oisst_concat.sh -y $yr || { echo "Concat failed"; exit 1; }
+          EOF
 
       - name: Copy logs from Gadi
-        if: always()   # copy logs even if the scripts failed
-        uses: appleboy/scp-action@v0.1.7
-        with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USER }}
-          key: ${{ secrets.SSH_KEY }}
-          passphrase: ${{ secrets.PASSPHRASE }}
-          source: "/g/data/jt48/aus-ref-clim-data-nci/oisst/code/update_log.txt,/g/data/jt48/aus-ref-clim-data-nci/oisst/code/concat_log.txt"
-          target: "logs/"
-          strip_components: 7   # strips the leading path, leaves just the filenames
+        if: always()
+        run: |
+          scp -i ~/.ssh/id_ed25519 \
+            ${{ secrets.HPC_USER }}@${{ env.GADI_HOST }}:${{ env.GADI_LOGS }}/update_log.txt \
+            logs/update_log.txt
+          scp -i ~/.ssh/id_ed25519 \
+            ${{ secrets.HPC_USER }}@${{ env.GADI_HOST }}:${{ env.GADI_LOGS }}/concat_log.txt \
+            logs/concat_log.txt
 
       - name: Commit and push logs
         if: always()
