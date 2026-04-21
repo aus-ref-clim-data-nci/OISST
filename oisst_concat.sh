@@ -1,5 +1,21 @@
 #!/usr/bin/env bash
 # =============================================================================
+# Copyright 2026 ARC Centre of Excellence for Weather of the 21st Century
+# 
+# author: Samuel Green <sam.green@unsw.edu.au>
+# 
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+# 
+#     http://www.apache.org/licenses/LICENSE-2.0
+
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# =============================================================================
 # oisst_concat.sh
 # Concatenate daily OISST AVHRR NetCDF files into a single yearly file,
 # rechunk with ncks, and stamp the global history attribute.
@@ -8,6 +24,11 @@
 #   ./oisst_concat.sh -y <year> [-v]
 #
 # Dependencies: cdo, nco (ncks, ncatted)
+#
+# Date created:
+# 2026-04-21
+# Last change:
+# 2026-04-21
 # =============================================================================
 
 set -euo pipefail
