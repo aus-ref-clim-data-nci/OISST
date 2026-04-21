@@ -30,6 +30,8 @@ jobs:
           ssh -i ~/.ssh/id_ed25519 \
             ${{ secrets.HPC_USER }}@${{ env.GADI_HOST }} \
             bash -l << 'EOF'
+              module use /g/data3/xp65/public/modules
+              module load conda/analysis3
               cd ${{ env.GADI_CODE }}
               yr=$(date +'%Y')
 
