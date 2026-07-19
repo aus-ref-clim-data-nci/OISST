@@ -723,3 +723,13 @@ The output from wget is in /tmp/<year>/wget_output.log
 [2026-07-12 16:19:38] Done. Downloaded/checked 192 day(s).
 [2026-07-12 16:19:38] wget detail log: /g/data/jt48/aus-ref-clim-data-nci/oisst/data/tmp/2026/wget_output.log
 [2026-07-12 16:19:38] ========================================================
+[2026-07-19 14:17:03] ========================================================
+[2026-07-19 14:17:04] oisst_dl.sh  |  year=2026  |  user=sg7549
+[2026-07-19 14:17:04] Date range  :  20260101 -> 20260719 (exclusive)
+[2026-07-19 14:17:04] Output dir  :  /g/data/jt48/aus-ref-clim-data-nci/oisst/data/tmp/2026
+[2026-07-19 14:17:04] wget log    :  /g/data/jt48/aus-ref-clim-data-nci/oisst/data/tmp/2026/wget_output.log
+[2026-07-19 14:17:04] ========================================================
+[2026-07-19 16:28:39] ========================================================
+[2026-07-19 16:28:39] Done. Downloaded/checked 199 day(s).
+[2026-07-19 16:28:39] wget detail log: /g/data/jt48/aus-ref-clim-data-nci/oisst/data/tmp/2026/wget_output.log
+[2026-07-19 16:28:39] ========================================================
