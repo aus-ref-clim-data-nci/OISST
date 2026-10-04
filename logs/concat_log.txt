@@ -1330,3 +1330,20 @@ History added to/g/data/jt48/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr
 [2026-09-27 16:04:09] ========================================================
 [2026-09-27 16:04:09] Done. Output: /g/data/jt48/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2026.nc
 [2026-09-27 16:04:09] ========================================================
+[2026-10-04 17:33:14] ========================================================
+[2026-10-04 17:33:14] oisst_concat.sh  |  year=2026  |  user=sg7549
+[2026-10-04 17:33:14] ========================================================
+[2026-10-04 17:33:14] Scanning for superseded preliminary files in /g/data/jt48/aus-ref-clim-data-nci/oisst/data/tmp/2026 ...
+[2026-10-04 17:33:16] Removed 0 superseded preliminary file(s).
+[2026-10-04 17:33:16] Starting concatenation for year 2026 ...
+[2026-10-04 17:33:16] Found 261 daily file(s) to concatenate.
+[2026-10-04 17:33:16] Removing existing output: /g/data/jt48/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2026.nc
+[2026-10-04 17:33:16] Running CDO: cdo --no_history -O -L --sortname -f nc4 -z zip_5 cat /g/data/jt48/aus-ref-clim-data-nci/oisst/data/tmp/2026/oisst-avhrr-v02r01.2026*.nc /g/data/jt48/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2026_tmp.nc
+[2026-10-04 17:34:30] Concatenation complete.
+[2026-10-04 17:34:30] Running ncks: ncks --cnk_dmn time,366 --cnk_dmn lat,720 --cnk_dmn lon,720 /g/data/jt48/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2026_tmp.nc /g/data/jt48/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2026.nc
+[2026-10-04 17:35:13] Rechunking complete.
+[2026-10-04 17:35:13] Stamping history attribute ...
+[2026-10-04 17:35:14] History attribute written to /g/data/jt48/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2026.nc.
+[2026-10-04 17:35:14] ========================================================
+[2026-10-04 17:35:14] Done. Output: /g/data/jt48/aus-ref-clim-data-nci/oisst/data/yearly/oisst-avhrr-v02r01_2026.nc
+[2026-10-04 17:35:14] ========================================================
